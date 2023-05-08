@@ -12,16 +12,21 @@
 <body>
   <h1>Mi Prueba</h1>
 
-  <form class="container" netlify="true">
+  <form class="container" netlify="true" action="welcome.html">
     <h2>Escríbeme tu Calificacion</h2>
     
     <div class="mb-3">
-      <label for="fullname" class="form-label">Tu Identificacion</label>
-      <input type="text" class="form-control" id="fullnameInput" name="firstName">
-    </div>
+        <label for="fullname" class="form-label">Tu Identificacion</label>
+        <input type="text" class="form-control" id="fullnameInput" name="firstName">
+      </div>
     
-
-    <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="mb-3">
+        <label for="<IDENTIFICADOR-CAMPO>Input" class="form-label">Apellido</label>
+        <INPUT class="form-control" id="LastNameInput" name="<IDENTIFICADOR-CAMPO>">
+      </div>
+      
+    <button type="submit" class="btn btn-primary">Enviar</button>
+        
   </form>
 
 
